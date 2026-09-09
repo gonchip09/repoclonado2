@@ -39,7 +39,7 @@
                             <!-- To make this form functional, sign up at-->
                             <!-- https://startbootstrap.com/solution/contact-forms-->
                             <!-- to get an API token!-->
-                            <form class="form-subscribe" id="contactForm" name="newsletter-top" method="POST" data-netlify="true">
+                            <form class="form-subscribe" id="contactForm" name="newsletter-top" method="POST" data-netlify="true" onsubmit="return submitNetlifyForm(event)">
                                 <input type="hidden" name="form-name" value="newsletter-top" />
                                 <!-- Email address input-->
                                 <div class="row">
@@ -169,7 +169,7 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form class="form-subscribe" id="contactFormFooter" name="newsletter-footer" method="POST" data-netlify="true">
+                        <form class="form-subscribe" id="contactFormFooter" name="newsletter-footer" method="POST" data-netlify="true" onsubmit="return submitNetlifyForm(event)">
                             <input type="hidden" name="form-name" value="newsletter-footer" />
                             <!-- Email address input-->
                             <div class="row">

@@ -50,7 +50,7 @@ html(lang='en')
                             // https://startbootstrap.com/solution/contact-forms
                             // to get an API token!
 
-                            form.form-subscribe#contactForm(name='newsletter-top' method='POST' data-netlify='true')
+                            form.form-subscribe#contactForm(name='newsletter-top' method='POST' data-netlify='true' onsubmit='return submitNetlifyForm(event)')
 
                                 input(type='hidden' name='form-name' value='newsletter-top')
 
@@ -169,7 +169,7 @@ html(lang='en')
                         // https://startbootstrap.com/solution/contact-forms
                         // to get an API token!
 
-                        form.form-subscribe#contactFormFooter(name='newsletter-footer' method='POST' data-netlify='true')
+                        form.form-subscribe#contactFormFooter(name='newsletter-footer' method='POST' data-netlify='true' onsubmit='return submitNetlifyForm(event)')
 
                             input(type='hidden' name='form-name' value='newsletter-footer')
 
